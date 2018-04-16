@@ -4,10 +4,10 @@
 
 main(){
 	  int soma = 0,
-		num = 0,	i = 0;
+		num = 0,	cont = 0;
 			
-	for (i = 1; i <= 10; i++) {
-		printf("Escreva o %dº: ", i);
+	for (cont = 1; cont <= 10; cont++) {
+		printf("Escreva o %dº: ", cont);
 		scanf("%d", &num);
         soma = soma + num;
     }
