@@ -1,14 +1,18 @@
 #include  <stdio.h>
 int main () {
-	int i, j, k=1,n ,m ,  num;
+	int cont, variante, maislinha=1, numero;
  	
 	printf ("Insira um número:\n");
- 	scanf ("%d", &num);
+ 	scanf ("%d", &numero);
  	printf("\n");
- 	for (i=1; i<=num; i++){
-  		for (j=num; j<=i; j++)
+ 	
+ 	for (cont=1; cont<=numero; cont++){
+  		for (variante=numero; variante<=cont; variante++)
+  		
 		printf ("");
-  		for (k=1; k<=i*1; k++)
+		
+  		for (maislinha=1; maislinha<=cont*1; maislinha++)
+  		
 		printf ("*");
   		printf ("\n");
  	}
