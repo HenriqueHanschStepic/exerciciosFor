@@ -1,17 +1,18 @@
 #include  <stdio.h>
 int main () {
-	int i, j, k=1,n ,m ,  num;
+	int cont, j, k=1,n ,m ,  numero;
  	
 	printf ("Insira um número:\n");
- 	scanf ("%d", &num);
- 	for (i=1; i<=num; i++){
-  	for (j=num; j>=i; j--)
+ 	scanf ("%d", &numero);
+	
+ 	for (cont=1; cont<=numero; cont++){
+  	for (j=numero; j>=cont; j--)
 	printf (" ");
-  	for (k=1; k<=i*2-1; k++)
+  	for (k=1; k<=cont*2-1; k++)
 	printf ("*");
   	printf ("\n");
  	}
- 		for (m=num/1.5; m<num; m++){
+ 		for (m=numero/1.5; m<numero; m++){
   			for (n=2; n<=k/2; n++)
    				printf (" ");
  				printf ("***\n");
